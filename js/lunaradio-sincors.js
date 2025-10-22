@@ -264,7 +264,7 @@ https://www.sodah.de
                 a = qb,
                 h = a,
                 f = {};
-            "corsproxy" == fa && (b = "GET", h = a = ua + a, f = {});
+            "corsproxy" == fa && (b = "GET", h = a = ua + "?url=" + a, f = {});
             "fallback" == fa && (b = "POST", h = Y + "fallback.php", f = {
                 url: a
             });
@@ -307,7 +307,7 @@ https://www.sodah.de
                 a = Z + "/status-json.xsl",
                 h = a,
                 f = {};
-            "corsproxy" == fa && (b = "GET", h = a = ua +
+            "corsproxy" == fa && (b = "GET", h = a = ua + "?url=" +
                 a, f = {});
             "fallback" == fa && (b = "POST", h = Y + "fallback.php", f = {
                 url: a
@@ -380,7 +380,7 @@ https://www.sodah.de
                 a = Z + "/stats?json=1&sid=" + rb,
                 h = a,
                 f = {};
-            "corsproxy" == fa && (b = "GET", h = a = ua + a, f = {});
+            "corsproxy" == fa && (b = "GET", h = a = ua + "?url=" + a, f = {});
             "fallback" == fa && (b = "POST", h = Y + "fallback.php", f = {
                 url: a
             });
